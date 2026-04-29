@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load("model/loan_default_model.pkl")
-sc = joblib.load("model/sc.pkl")
-model_columns =joblib.load("model/model_columns.pkl")
+model = joblib.load("loan_default_model.pkl")
+sc = joblib.load("sc.pkl")
+model_columns =joblib.load("model_columns.pkl")
 
 
 
